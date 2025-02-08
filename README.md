@@ -1,0 +1,1 @@
+This repository demonstrates a subtle difference in how mutable variables are handled in F# functions.  The `bug.fs` file shows a scenario where a function attempting to swap values of mutable variables passed by reference fails. The `bugSolution.fs` file presents the corrected approach using the `byref` keyword for correct in-place modification.
